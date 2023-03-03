@@ -1,0 +1,153 @@
+.contact-block{
+    margin-top: 50px;
+    background-color: dimgray;
+    border: 5px solid #424242;
+    padding: 20px;
+    text-align: center;
+}
+.title_box{
+    height: 150px;
+    padding-top: 45px;
+    text-align: center;
+    background: repeating-linear-gradient( -45deg, rgb(75, 38, 70) 0px, rgb(100, 50, 93) 5px, #333 6px, #333 11px, #000 12px);
+}
+
+.society{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.info{
+    font-size: 16px;
+    font-stretch: extra-condensed;
+}
+
+.article_block{
+    width: 65%;
+    margin-bottom: 40px;
+}
+.section1{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../src/img/water.jpg);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around;
+    flex-direction: column; */
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.poudreuse{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+.article-number{
+    color: rgb(156, 156, 156);
+    font-weight: 1000;
+    font-size: 22px;
+    font-family: fantasy;
+}
+.article{
+    margin-left: 15px;
+}
+.post-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+
+}
+.post-section{
+    margin-right: 15px;
+}
+.post-title{
+    font-size: 16px;
+    font-weight: 800;
+}
+.prose{
+    margin-top: 50px;
+}
+
+.page-footer{
+    background-color: rgb(34, 34, 34);
+}
+.icon{
+    width: auto;
+}
+.btn-dark{
+    background-color: black !important;
+    margin-left: 15px !important;
+}
+.background{
+    /* background-color: rgb(236, 236, 236); */
+}
+.footer-copyright{
+    color: white !important;
+}
+
+.form-box{
+    background-image: linear-gradient(to left, rgb(172, 150, 172), rgb(148, 114, 173)33);
+    width: 40%;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    text-align: center;
+    /* border: 2px solid gray; */
+    box-shadow: 0px 0px 5px 5px rgb(224 224 224) !important;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.form-title{
+    background-image: linear-gradient(to left, violet, indigo, blue);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.form{
+
+}
+.formBtn{
+margin-top: 10px;
+}
+
+.input-text{
+    height: 30px;
+    border-radius: 20px;
+    padding: 18px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #ededed;
+    color: #2c2c2c;
+}
+
+.input-text:focus{
+    border: 1px solid rgb(66, 47, 148);
+}
+
+ul {
+    list-style-type: disc; /* change the bullet style */
+    margin-left: 20px; /* add some left margin */
+    font-family: Arial, sans-serif; /* change the font family */
+}
+li {
+    margin-bottom: 10px; /* add some bottom margin between list items */
+}
+h1 {
+    font-size: 24px; /* increase the font size */
+    font-weight: bold; /* make the heading bold */
+    text-align: center; /* center the heading */
+}
